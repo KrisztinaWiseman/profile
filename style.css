@@ -1,0 +1,89 @@
+body {
+  font-family: 'Gugi', cursive;
+  font-weight: 300;
+  color: #3c415e;
+}
+
+h1 {
+  text-shadow: 3px 2px 5px #738598;
+}
+
+h2 {
+  color: #3c415e;
+  text-shadow: 3px 2px 5px #738598;
+}
+
+p {
+  text-shadow: 3px 2px 5px #738598;
+}
+
+a {
+  color: #3c415e;
+  text-shadow: 3px 2px 5px #738598;
+  widht: 10px;
+}
+
+i:hover {
+  color: #1cb3c8;
+  transform: rotateY(180deg);
+}
+
+p:hover {
+  color: #1cb3c8;
+}
+
+h2:hover {
+  color: #1cb3c8;
+}
+
+h1:hover {
+  color: #1cb3c8;
+}
+
+.circle:hover {
+  transform: rotateY(180deg);
+}
+
+img.circle {
+  border-radius: 50px;
+  box-shadow: 5px 10px 10px #3c415e;
+  position: relative;
+}
+
+div.card {
+  text-align: center;
+  padding: 20px;
+  margin: 20px, 200px;
+  box-shadow: 5px 10px 10px #3c415e;
+  border-radius: 20px;
+  position: relative;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
